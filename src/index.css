@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-default: #3ECF4C;
+  --color-primary-400: #6BE26B;
+  --color-primary-300: #94F08B;
+  --color-primary-200: #C0FAB4;
+  --color-primary-100: #E2FCD9CC;
+
+  --color-secondary-default: #FFBD3A;
+  --color-secondary-400: #FFD26B;
+  --color-secondary-300: #FFDF88;
+  --color-secondary-200: #FFECB0;
+  --color-secondary-100: #FFF7D7CC;
+
+  --color-tertiary-default: #F64920;
+  --color-tertiary-400: #F98256;
+  --color-tertiary-300: #FCA578;
+  --color-tertiary-200: #FECAA5;
+  --color-tertiary-100: #FEE8D2CC;
+
+  --color-textDark-primary: #222325;
+  --color-textDark-secondary: #333333AD;
+  --color-textDark-tertiary: #4A505C;
+  --color-textDark-disabled: #3A354161;
+
+  --color-textLight-primary: #FFFFFF;
+  --color-textLight-secondary: #C1C2C4;
+  --color-textLight-disabled: #9D9EA1;
+
+  --color-other-primaryBackground: #FFFFFF;
+  --color-other-baseBackground: #F4F5FA;
+  --color-other-secondaryBackground: #F9FAFC;
+  --color-other-border: #3A35411F;
+  --color-other-border2: #F1F1F1;
+
+  --color-info-pressed: #044AA2;
+  --color-info-hover: #0663C2;
+  --color-info-default: #0980E2;
+  --color-info-background: #EBF9FE;
+
+  --color-success-pressed: #1C9675;
+  --color-success-hover: #28B380;
+  --color-success-default: #38D189;
+  --color-success-background: #E0FDDF;
+
+  --color-warning-pressed: #B5A40D;
+  --color-warning-hover: #D8C613;
+  --color-warning-default: #FCE91B;
+  --color-warning-background: #FCF8CA;
+
+  --color-error-pressed: #B72315;
+  --color-error-hover: #DB3D1F;
+  --color-error-default: #FF5C2B;
+  --color-error-background: #FCE3D1;
+
+  --color-baseBackground: #FFFDF3;
+
+  --color-greyscale-900: #212121;
+  --color-greyscale-800: #424242;
+  --color-greyscale-700: #616161;
+  --color-greyscale-600: #757575;
+  --color-greyscale-500: #9E9E9E;
+  --color-greyscale-400: #BDBDBD;
+  --color-greyscale-300: #E0E0E0;
+  --color-greyscale-200: #EEEEEE;
+  --color-greyscale-100: #F5F5F5;
+  --color-greyscale-50: #FAFAFA;
+  
+
+  --color-gradient-primary: linear-gradient(90deg, #3ECF4C, #B72315);
+  --color-gradient-secondary: linear-gradient(135deg, #FFBD3A, #FFD26B);
+  --color-gradient-tertiary: linear-gradient(135deg, #F64920, #F98256);
+}
